@@ -1,6 +1,17 @@
+### Maven template
 HELP.md
 /target/
-!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+log/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+mvnw
+mvnw.cmd
 
 ### STS ###
 .apt_generated
@@ -16,6 +27,7 @@ HELP.md
 *.iws
 *.iml
 *.ipr
+/out/
 
 ### NetBeans ###
 /nbproject/private/
@@ -27,3 +39,42 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+
+# Eclipse
+.metadata/
+.settings/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.project
+.classpath
+.loadpath
+
+# Java
+## Compiled class file
+*.class
+
+## Log file
+*.log
+*.log.*
+
+## Package files
+*.jar
+
+## External tool builders
+.externalToolBuilders/
+
+## Locally stored "Eclipse launch configurations"
+*.launch
+
+## Java annotation processor (APT)
+.factorypath
+
+## STS (Spring Tool Suite)
+.springBeans
+
+# JIRA plugin
+atlassian-ide-plugin.xml
