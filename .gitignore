@@ -78,3 +78,8 @@ tmp/
 
 # JIRA plugin
 atlassian-ide-plugin.xml
+
+# node
+/node_modules/
+.babelrc
+.editorconfig
