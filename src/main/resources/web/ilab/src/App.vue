@@ -16,6 +16,10 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
+    <h2>Essential的点点滴滴</h2>
+    <h1>
+      <router-link to="helloworld">跳转至helloworld</router-link>
+    </h1>
   </div>
 </template>
 
